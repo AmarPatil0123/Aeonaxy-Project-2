@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+    min-height: 100vh;
+
+}
+
+.logo {
+    margin: .1rem .5rem;
+}
+
+.heading {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+
+img {
+    width: 8rem;
+    height: 8rem;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 2rem;
+
+}
+
+.profile-container{
+    line-height: 3rem;
+}
+
+.profile-container p{
+    margin-bottom: .7rem;
+}
+
+.image-container{
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.profile-pic{
+    width: 8rem;
+    height:8rem;
+    border: 3px dashed grey;
+    border-radius: 50%;
+}
+
+.choose{
+    margin-left: 3rem;
+}
+
+.choose a{
+    display: block;
+    color: black;
+    font-weight: bolder;
+    opacity: .6;
+}
+
+#choose-image{
+    display: none;
+}
+
+label{
+    padding: .5rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.choose h4{
+    opacity: .5;
+}
+
+.title{
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.location{
+    width: 100%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-size: .9rem;
+    padding-bottom: .3rem;
+    margin-bottom: 3rem;
+
+}
+
+.location:focus{
+    outline: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.submit{
+    width: 13rem;
+    height: 2.3rem;
+    border-radius: 8px;
+    background-color: rgb(255, 7, 123);
+    color: white;
+    font-weight: bolder;
+    border: none;
+    opacity: .4;
+    cursor: pointer;
+}
+
+.press-return{
+    font-weight: 800;
+    opacity: .5;
+    margin-left: 3rem;
+    font-size: .8rem;
+}
+
+@media screen and (max-width:600px) {
+    html{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:505px) and (min-width:400px) {
+    html{
+        font-size: 14px;
+    }
+}

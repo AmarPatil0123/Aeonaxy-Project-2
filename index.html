@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="comp2.css">
+</head>
+
+<body>
+    <div class="logo">
+        <img src="logo.jpg" alt="LOGO">
+    </div>
+    <main>
+        <div class="profile-container">
+            <h1>Welcome! Let's create your profile</h1>
+            <p>Let others get to know you better! You can do these later</p>
+            <form action="">
+                <p class="title">Add an avtar</p>
+                <div class="image-container">
+                    <img src="camera.png" alt="image" class="profile-pic">
+                    <div class="choose">
+                        <input type="file" accept="image/*" id="choose-image" name="image">
+                        <label for="choose-image">Choose image</label>
+                        <a href="#"><i class="fa-solid fa-greater-than"></i> Or choose one of our defaults</a>
+                    </div>
+                </div>
+                <p class="title">Add your location</p>
+                <input type="text" name="location" class="location" placeholder="Enter a location">
+                <div class="submit-div">
+                <button class="submit">Next</button>
+                <h5 class="press-return">or Press RETURN</h5>
+            </form>
+        </div>
+    </main>
+    <script src="comp2.js"></script>
+</body>
+
+</html>
